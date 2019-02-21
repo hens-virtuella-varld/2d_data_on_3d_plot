@@ -14,3 +14,4 @@ $ pip install -r requirements.txt
 $ python generate_cube_json.py > sample.json # This generates a sample data.
 $ python plot.py sample.json cube
 ```
+![sample cube](cube.png)
