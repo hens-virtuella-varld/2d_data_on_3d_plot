@@ -14,10 +14,11 @@ import sys
 import json
 
 
-structure_name = sys.argv[1]
-color = sys.argv[2] if len(sys.argv) == 3 else 'grey'
+data_file = sys.argv[1]
+structure_name = sys.argv[2]
+color = sys.argv[3] if len(sys.argv) == 4 else 'grey'
 
-with open('data.json') as f:
+with open(data_file) as f:
     data = json.load(f)
 
 fig = plt.figure()
