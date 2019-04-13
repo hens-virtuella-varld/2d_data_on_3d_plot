@@ -9,7 +9,7 @@ cube = [
         { "x": 1, "y": 1, "z": z },
         { "x": 0, "y": 1, "z": z },
         { "x": 0, "y": 0, "z": z }
-    ] for z in np.linspace(0, 1, 50)
+    ] for z in np.linspace(0, 1, 2)
 ]
 
 print(json.dumps({'cube': cube}, indent=4, sort_keys=True))
